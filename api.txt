@@ -15,6 +15,9 @@ Response:
 "speciality": "surgeon"
 }
 }
+
+
+
 FacultyDashboard ->Competency List
 https://api421.herokuapp.com/fdashboard/competencydetails/{speciality}
 Response:
@@ -43,6 +46,8 @@ Response:
 
 ]
 }
+
+
 FacultyDashboard ->List of Students and their percentages in a Competency
 https://api421.herokuapp.com/fdashboard/competencydetails/speciality/{speciality}/competencyid/{competencyid}
 Response:
@@ -71,6 +76,9 @@ Response:
 "competencynum": 4,
 "competencyname": "competency1"
 }]
+
+
+
 Profile Details for all student or faculty based on their role
 https://api421.herokuapp.com/profile/email/{email}
 Response for faculty:
@@ -93,6 +101,9 @@ Response for faculty:
 "batch": "2019"
 }
 ]
+
+
+
 FacultyDashboard ->List of Students and their percentages in a Competency->Get Evaluations of a student in a competency
 https://api421.herokuapp.com/competencyevaluations/competencyid/{competencyid}/studentid/{studentid}
 Response:
@@ -121,12 +132,16 @@ Response:
 "self": 0,
 "faculty": 0
 }]
+
+
 FacultyDashboard ->List of Students and their percentages in a Competency->Get Evaluations of a student in a competency
 ->Create a row in evaluation table with opnum(Post request):
 https://api421.herokuapp.com/competencyevaluations/competencyid/{competencyid}/studentid/{studentid}/opnum
 body:{"opnum":num,"fmail":""}
 Response:
 same as body
+
+
 
 FacultyDashboard ->List of Students and their percentages in a Competency->Get Evaluations of a student in a competency
 ->Get Evaluation Form 
@@ -170,6 +185,8 @@ Response:
 }
 ]
 }
+
+
 FacultyDashboard ->List of Students and their percentages in a Competency->Get Evaluations of a student in a competency
 ->Post Evaluation Form (Post request)
 https://api421.herokuapp.com/competencyevaluations/competencyid/{competencyid}/studentid/{studentid}
@@ -188,6 +205,8 @@ body:{[
 Response:
 same as body
 
+
+
 Todo tasks->Faculty Meets->Get List of Students who want a one to one meet
 https://api421.herokuapp.com/facultytodo/meet/{mail}
 Response:
@@ -199,6 +218,8 @@ Response:
 "CompetencyEvaluation_id": 184
 }
 ]
+
+
 Todo tasks->Faculty Reference Needed
 https://api421.herokuapp.com/facultytodo/reference/{mail}
 mailexample:pramilacheruku001@gmail.com
@@ -225,6 +246,8 @@ Response:
 "criteriaqs": "why",
 "CompetencyEvaluation_id": 184
 }]
+
+
 StudentDashboard ->Student Details(name,batch)
 https://api421.herokuapp.com/studentdashboard/details/studentmail/{email}
 Response:
@@ -232,6 +255,8 @@ Response:
 "name": "kdajjnvuhdikauh",
 "batch": "2018"
 }
+
+
 StudentDashboard ->Speciality List
 https://api421.herokuapp.com/studentdashboard/specialities
 Response:
@@ -255,6 +280,8 @@ Response:
 }
 ]
 }
+
+
 StudentDashboard ->>List Competency and student percentage in that competency
 https://api421.herokuapp.com/studentdashboard/email/{mail}/speciality/{speciality}
 Response:
