@@ -137,7 +137,7 @@ Response:
 FacultyDashboard ->List of Students and their percentages in a Competency->Get Evaluations of a student in a competency
 ->Create a row in evaluation table with opnum(Post request):
 https://api421.herokuapp.com/competencyevaluations/competencyid/{competencyid}/studentid/{studentid}/opnum
-body:{"opnum":num,"fmail":""}
+body:{"opnum":"num","fmail":"mail"}
 Response:
 same as body
 
@@ -191,13 +191,13 @@ FacultyDashboard ->List of Students and their percentages in a Competency->Get E
 ->Post Evaluation Form (Post request)
 https://api421.herokuapp.com/competencyevaluations/competencyid/{competencyid}/studentid/{studentid}
 body:{[
-{"criteriaid":id,
+{"criteriaid":4,
 "score":1,
 "matter":"dsds"
-},{"criteriaid":id,
+},{"criteriaid":14,
 "score":1,
 "matter":"dsds"
-},{"criteriaid":id,
+},{"criteriaid":24,
 "score":1,
 "matter":"dsds"
 }]
