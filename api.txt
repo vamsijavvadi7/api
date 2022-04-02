@@ -189,7 +189,7 @@ Response:
 
 FacultyDashboard ->List of Students and their percentages in a Competency->Get Evaluations of a student in a competency
 ->Post Evaluation Form (Post request)
-https://api421.herokuapp.com/competencyevaluations/competencyid/{competencyid}/studentid/{studentid}
+https://api421.herokuapp.com/competencyevaluations/competencyevaluationid/{competencyevaluationid}
 body:{
 "criterias":[
 {"criteriaid":4,
@@ -201,12 +201,77 @@ body:{
 },{"criteriaid":24,
 "score":1,
 "matter":"dsds"
-}],
+},
+{"criteriaid":34,
+"score":1,
+"matter":"dsddsdssssssssssssssssssssss"
+},
+{"criteriaid":44,
+"score":1,
+"matter":"dsddsdssssssssssssssssssssss"
+}
+],
 "meettime":"12:34pm july7 2022"
 }
 Response:
 same as body
+  
+  
+  
 
+FacultyDashboard ->List of Students and their percentages in a Competency->Get Evaluations of a student in a competency
+->Get Evaluation Submited Form 
+https://api421.herokuapp.com/competencyevaluations/facultyview/competencyid/{competencyid}/competencyevaluationid/{competencyevaluationid}
+Response:
+{
+"compevaluationid": 184,
+"patientop": "128",
+"date": "10-01-2022",
+"time": "05:37",
+"studentname": "hgjugyjkuhjuyjgjkhu",
+"facultyname": "hkiuhkjkhkjkhvh",
+"criteriadetails": [
+{
+"criteiaid": 4,
+"criteriaqs": "how",
+"optionmatter": "partially correct",
+"optionval": 1,
+"refermatter": "dsds"
+},
+{
+"criteiaid": 14,
+"criteriaqs": "what",
+"optionmatter": "partially correct",
+"optionval": 1,
+"refermatter": "dsds"
+},
+{
+"criteiaid": 24,
+"criteriaqs": "why",
+"optionmatter": "partially accurate",
+"optionval": 1,
+"refermatter": "dsds"
+},
+{
+"criteiaid": 34,
+"criteriaqs": "when",
+"optionmatter": "not accurate",
+"optionval": 0,
+"refermatter": ""
+},
+{
+"criteiaid": 44,
+"criteriaqs": "who",
+"optionmatter": "not accurate",
+"optionval": 0,
+"refermatter": ""
+}
+],
+"meettime": "12th march 2021 3:00"
+}
+  
+  
+  
 
 
 Todo tasks->Faculty Meets->Get List of Students who want a one to one meet
