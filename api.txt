@@ -190,7 +190,8 @@ Response:
 FacultyDashboard ->List of Students and their percentages in a Competency->Get Evaluations of a student in a competency
 ->Post Evaluation Form (Post request)
 https://api421.herokuapp.com/competencyevaluations/competencyid/{competencyid}/studentid/{studentid}
-body:{[
+body:{
+"criterias":[
 {"criteriaid":4,
 "score":1,
 "matter":"dsds"
@@ -200,7 +201,8 @@ body:{[
 },{"criteriaid":24,
 "score":1,
 "matter":"dsds"
-}]
+}],
+"meettime":"12:34pm july7 2022"
 }
 Response:
 same as body
