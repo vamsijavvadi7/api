@@ -312,6 +312,7 @@ Response:
 "competencyname": "competency1",
 "studentid": "18pa1a05b7",
 "criteriaqs": "what",
+"criteriaid": "14",
 "CompetencyEvaluation_id": 184
 },
 {
@@ -319,6 +320,7 @@ Response:
 "competencyname": "competency1",
 "studentid": "18pa1a05b7",
 "criteriaqs": "why",
+"criteriaid": "24",
 "CompetencyEvaluation_id": 194
 },
 {
@@ -326,10 +328,18 @@ Response:
 "competencyname": "competency1",
 "studentid": "18pa1a05b7",
 "criteriaqs": "why",
+"criteriaid": "24",
 "CompetencyEvaluation_id": 184
-}]
-
-
+},
+{
+"studentname": "kdajjnvuhdikauh",
+"competencyname": "competency1",
+"studentid": "18pzqsqw1",
+"criteriaqs": "why",
+"criteriaid": "24",
+"CompetencyEvaluation_id": 64
+}
+]
 StudentDashboard ->Student Details(name,batch)
 https://api421.herokuapp.com/studentdashboard/details/studentmail/{email}
 Response:
