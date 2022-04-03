@@ -312,7 +312,7 @@ Response:
 "competencyname": "competency1",
 "studentid": "18pa1a05b7",
 "criteriaqs": "what",
-"criteriaid": "14",
+"criteriaid": 14,
 "CompetencyEvaluation_id": 184
 },
 {
@@ -320,15 +320,7 @@ Response:
 "competencyname": "competency1",
 "studentid": "18pa1a05b7",
 "criteriaqs": "why",
-"criteriaid": "24",
-"CompetencyEvaluation_id": 194
-},
-{
-"studentname": "hgjugyjkuhjuyjgjkhu",
-"competencyname": "competency1",
-"studentid": "18pa1a05b7",
-"criteriaqs": "why",
-"criteriaid": "24",
+"criteriaid": 24,
 "CompetencyEvaluation_id": 184
 },
 {
@@ -336,7 +328,7 @@ Response:
 "competencyname": "competency1",
 "studentid": "18pzqsqw1",
 "criteriaqs": "why",
-"criteriaid": "24",
+"criteriaid": 24,
 "CompetencyEvaluation_id": 64
 }
 ]
@@ -347,6 +339,20 @@ Response:
 "name": "kdajjnvuhdikauh",
 "batch": "2018"
 }
+
+
+Todo tasks->Faculty Post Reference (POST)
+https://api421.herokuapp.com/facultytodo/postrefernce
+body:{
+    "competencyevaluationid":194,
+    "refermatter":"sdsddaswcw2wdw",
+    "criteriaid":24
+}
+response:
+same as body
+
+
+
 
 
 StudentDashboard ->Speciality List
