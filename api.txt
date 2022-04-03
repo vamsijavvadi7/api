@@ -276,6 +276,7 @@ Response:
 
 Todo tasks->Faculty Meets->Get List of Students who want a one to one meet
 https://api421.herokuapp.com/facultytodo/meet/{mail}
+mailexample:pramilacheruku001@gmail.com
 Response:
 [
 {
@@ -285,6 +286,20 @@ Response:
 "CompetencyEvaluation_id": 184
 }
 ]
+
+Todo tasks->Faculty Meets->Post one to one meet for each student
+https://api421.herokuapp.com/facultytodo/postmeet
+body:
+{
+"competencyevaluationid": 184,
+"meettime": "21 april 2022 9:00am"
+}
+Response:
+same as body
+
+
+
+
 
 
 Todo tasks->Faculty Reference Needed
