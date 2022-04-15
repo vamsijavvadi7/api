@@ -414,3 +414,36 @@ Response:
 "self": 0,
 "faculty": 0
 }]
+
+
+
+
+
+StudentDashboard ->List of Students and their percentages in a Competency->Get Evaluations of a student in a competency
+->Post Self Evaluation Form (Post request)
+https://api421.herokuapp.com/competencyevaluations/self/competencyevaluationid/{competencyevaluationid}
+body:    {
+"criterias":[
+{"criteriaid":4,
+"score":1,
+"Needrefermatter":0
+},{"criteriaid":14,
+"score":1,
+"Needrefermatter":1
+},{"criteriaid":24,
+"score":1,
+"Needrefermatter":1
+},
+{"criteriaid":34,
+"score":1,
+"Needrefermatter":1
+},
+{"criteriaid":44,
+"score":1,
+"Needrefermatter":1
+}
+],
+"NeedMeet":1
+}
+response:
+same as body
