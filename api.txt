@@ -5,7 +5,15 @@ Response:
 "status": "True",
 "role": "faculty"
 }
-
+login check with password:
+https://api421.herokuapp.com/login/{email}/{password}
+example email:vamis@gmail.com
+password:welcome123
+Response:
+{
+"status": "True",
+"role": "student"
+}
 FacultyDashboard ->Faculty Details(name,speciality..)
 https://api421.herokuapp.com/fdashboard/details/{email}
 Response:
