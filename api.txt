@@ -536,3 +536,31 @@ Response:
 "evaluationtype": "self"
 }
 ]
+
+
+
+
+
+Todo tasks->Student References
+https://api421.herokuapp.com/studenttodo/reference/{email}
+Response:
+[
+{
+"facultyname": "dalpatflutter",
+"competencyname": "competency1",
+"reference": "dwdwyesyes",
+"competencyevaluation_id": 1264,
+"evaluationtype": "faculty",
+"criteriaid": 4,
+"criteriaqs": "how"
+},
+{
+"facultyname": "dalpatflutter",
+"competencyname": "competency1",
+"reference": "dwdwyejjhsyes",
+"competencyevaluation_id": 1264,
+"evaluationtype": "self",
+"criteriaid": 4,
+"criteriaqs": "how"
+}
+]
