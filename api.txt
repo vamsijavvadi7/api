@@ -447,3 +447,34 @@ body:    {
 }
 response:
 same as body
+
+
+
+Todo tasks->Student Meets->Get List of faculty to meet
+https://api421.herokuapp.com/studenttodo/meet/{mail}
+mailexample:hampi@gmail.com
+Response:
+[
+{
+"facultyname": "hkiuhkjkhkjkhvh",
+"competencyname": "competency1",
+"meettime": "12th march 2021 3:00",
+"CompetencyEvaluation_id": 184,
+"evaluationtype": "faculty"
+},
+{},
+{
+"facultyname": "hkiuhkjkhkjkhvh",
+"competencyname": "competency1",
+"meettime": "12 april 12:00",
+"CompetencyEvaluation_id": 204,
+"evaluationtype": "faculty"
+},
+{
+"facultyname": "hkiuhkjkhkjkhvh",
+"competencyname": "competency1",
+"meettime": "3rd april 6:35pm",
+"CompetencyEvaluation_id": 204,
+"evaluationtype": "self"
+}
+]
