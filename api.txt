@@ -283,7 +283,7 @@ Response:
 "studentname": "hgjugyjkuhjuyjgjkhu",
 "competencyname": "competency1",
 "studentid": "18pa1a05b7",
-"CompetencyEvaluation_id": 184
+"competencyevaluation_id": 184
 }
 ]
 
@@ -313,7 +313,7 @@ Response:
 "studentid": "18pa1a05b7",
 "criteriaqs": "what",
 "criteriaid": 14,
-"CompetencyEvaluation_id": 184
+"competencyevaluation_id": 184
 },
 {
 "studentname": "hgjugyjkuhjuyjgjkhu",
@@ -321,7 +321,7 @@ Response:
 "studentid": "18pa1a05b7",
 "criteriaqs": "why",
 "criteriaid": 24,
-"CompetencyEvaluation_id": 184
+"competencyevaluation_id": 184
 },
 {
 "studentname": "kdajjnvuhdikauh",
@@ -329,7 +329,7 @@ Response:
 "studentid": "18pzqsqw1",
 "criteriaqs": "why",
 "criteriaid": 24,
-"CompetencyEvaluation_id": 64
+"competencyevaluation_id": 64
 }
 ]
 StudentDashboard ->Student Details(name,batch)
@@ -517,7 +517,7 @@ Response:
 "facultyname": "hkiuhkjkhkjkhvh",
 "competencyname": "competency1",
 "meettime": "12th march 2021 3:00",
-"CompetencyEvaluation_id": 184,
+"competencyevaluation_id": 184,
 "evaluationtype": "faculty"
 },
 {},
@@ -525,14 +525,14 @@ Response:
 "facultyname": "hkiuhkjkhkjkhvh",
 "competencyname": "competency1",
 "meettime": "12 april 12:00",
-"CompetencyEvaluation_id": 204,
+"competencyevaluation_id": 204,
 "evaluationtype": "faculty"
 },
 {
 "facultyname": "hkiuhkjkhkjkhvh",
 "competencyname": "competency1",
 "meettime": "3rd april 6:35pm",
-"CompetencyEvaluation_id": 204,
+"competencyevaluation_id": 204,
 "evaluationtype": "self"
 }
 ]
