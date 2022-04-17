@@ -450,6 +450,64 @@ same as body
 
 
 
+
+
+
+
+
+
+StudentDashboard ->Get Evaluation Submited Form 
+https://api421.herokuapp.com/competencyevaluations/selfview/competencyid/{competencyid}/competencyevaluationid/{competencyevaluationid}
+Response:
+{
+"compevaluationid": 184,
+"patientop": "128",
+"date": "10-01-2022",
+"time": "05:37",
+"studentname": "hgjugyjkuhjuyjgjkhu",
+"facultyname": "hkiuhkjkhkjkhvh",
+"criteriadetails": [
+{
+"criteiaid": 4,
+"criteriaqs": "how",
+"optionmatter": "not accurate",
+"optionval": 0,
+"refermatter": ""
+},
+{
+"criteiaid": 14,
+"criteriaqs": "what",
+"optionmatter": "partially correct",
+"optionval": 1,
+"refermatter": "not given"
+},
+{
+"criteiaid": 24,
+"criteriaqs": "why",
+"optionmatter": "not accurate",
+"optionval": 0,
+"refermatter": "not given"
+},
+{
+"criteiaid": 34,
+"criteriaqs": "when",
+"optionmatter": "not accurate",
+"optionval": 0,
+"refermatter": ""
+},
+{
+"criteiaid": 44,
+"criteriaqs": "who",
+"optionmatter": "not accurate",
+"optionval": 0,
+"refermatter": ""
+}
+],
+"meettime": "21 april 2022 9:00am"
+}
+  
+
+
 Todo tasks->Student Meets->Get List of faculty to meet
 https://api421.herokuapp.com/studenttodo/meet/{mail}
 mailexample:hampi@gmail.com
