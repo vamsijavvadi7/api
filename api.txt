@@ -1,3 +1,12 @@
+For testing apis:
+Student mails
+hampi@gmail.com
+vamis@gmail.com
+Faculty mails
+jyothiadabala321@gmail.com
+dalpat999.dc@gmail.com
+pasword for all the above mails:welcome123
+
 login check:
 https://api421.herokuapp.com/login/email/{mail}
 Response:
