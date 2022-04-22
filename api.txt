@@ -14,6 +14,36 @@ Response:
 "status": "True",
 "role": "student"
 }
+
+
+
+Profile Details for all student or faculty based on their role
+https://api421.herokuapp.com/profile/email/{email}
+Response for faculty:
+[{
+"name": "jyothiadabala",
+"role": "faculty",
+"phone": "232324342323",
+"email": "jyothiadabala321@gmail.com",
+"batch": "",
+"regno": "18pa1a05022"
+}]
+Response for student:
+[{
+"name": "hgjugyjkuhjuyjgjkhu",
+"role": "student",
+"phone": "98787576",
+"email": "hampi@gmail.com",
+"batch": "2018",
+"regno": "18pa1a05b7"
+}]
+
+
+
+
+
+
+
 FacultyDashboard ->Faculty Details(name,speciality..)
 https://api421.herokuapp.com/fdashboard/details/{email}
 Response:
@@ -85,30 +115,6 @@ Response:
 "competencyname": "competency1"
 }]
 
-
-
-Profile Details for all student or faculty based on their role
-https://api421.herokuapp.com/profile/email/{email}
-Response for faculty:
-[
-{
-"name": "hkiuhkjkhkjkhvh",
-"role": "faculty",
-"phone": "87988767",
-"email": "pramilacheruku001@gmail.com",
-"batch": ""
-}
-]
-Response for faculty:
-[
-{
-"name": "hkiuhkjkhkjkhvh",
-"role": "student",
-"phone": "87988767",
-"email": "pramilacheruku001@gmail.com",
-"batch": "2019"
-}
-]
 
 
 
