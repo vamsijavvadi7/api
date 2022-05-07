@@ -23,7 +23,7 @@ Response:
 added
 
 
-https://api421.herokuapp.com/admin/speciality/update/{specialityname}/{specialityid}(POST req)
+https://api421.herokuapp.com/admin/speciality/update/{specialityname}/{specialityid}(PUT req)
 (api to update speciality)
 Response:
 added
@@ -47,12 +47,84 @@ Response:
 {
 "competencyname": "competency3",
 "competencyid": 24
+}
+]
+}
+
+https://api421.herokuapp.com/admin/speciality/competency/add/{specialityname}(POST Req)
+(api to create a competency)
+body:
+
+Request Body:
+{
+    "competencyname":"competency5",
+    "criteriadetails":[
+{
+"criteriaqs": "process1",
+"option0": "not accurate",
+"option1": "partially correct",
+"option2": "perfect"
 },
 {
-"competencyname": "competency4",
-"competencyid": 34
+"criteriaqs": "process2",
+"option0": "not accurate",
+"option1": "partially correct",
+"option2": "perfect"
+}
+     ]
+}
+Reponse:
+Same as body
+
+
+https://api421.herokuapp.com/admin/speciality/competency/getcompetency/{competencyid}(GET req)
+(api to get all competencys)
+Request Body:
+{
+"competencyname": "competency2",
+"competencyid": 14,
+"criteriadetails": [
+{
+"criteiaid": 44,
+"criteriaqs": "criteriaqs1",
+"option0": "Inappropriate/Not explained",
+"option1": "Partially explained",
+"option2": "Appropriate"
+},
+{
+"criteiaid": 54,
+"criteriaqs": "criteriaqs2",
+"option0": "Inappropriate/Not explained",
+"option1": "Partially explained",
+"option2": "Appropriate"
 }
 ]
 }
 
 
+
+https://api421.herokuapp.com/admin/speciality/competency/update(PUT req)
+(api to update a competency)
+BODY:
+{"competencyid": 14,
+"competencyname": "competency2",
+
+"criteriadetails": [
+{
+"criteiaid": 44,
+"criteriaqs": "criteriaqs1",
+"option0": "Inappropriate/Not explained",
+"option1": "Partially explained",
+"option2": "Appropriate"
+},
+{
+"criteiaid": 54,
+"criteriaqs": "criteriaqs2",
+"option0": "Inappropriate/Not explained",
+"option1": "Partially explained",
+"option2": "Appropriate"
+}
+]
+}
+Response:
+same as body
