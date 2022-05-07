@@ -1,0 +1,80 @@
+Get All Faculty(GET req)
+https://api421.herokuapp.com/admin/faculty/getall/{email}
+(api to display all faculty in database in a table)
+
+
+Response :
+[
+{
+"personid": 24,
+"firstname": "dalpat",
+"lastname": "javid",
+"password": "welcome123",
+"phone": "9848930444",
+"email": "dalpat999.dc@gmail.com",
+"facultyid": "vdc2",
+"speciality": "orthodontics"
+},
+{
+"personid": 114,
+"firstname": "kavya",
+"lastname": "odugu",
+"password": "welcome124",
+"phone": "9845673452",
+"email": "kavya@gmail.com",
+"facultyid": "vdc3",
+"speciality": "lowerteeth"
+}
+]
+
+
+
+
+https://api421.herokuapp.com/admin/faculty/insert
+(POST REQ)
+(api to add single faculty )
+Body:
+
+{"specialityname": "lowerteeth",
+"facultyid": "vdc3",
+"facultyfirstname": "kavya",
+"facultylastname": "odugu",
+"password": "welcome124",
+"phonenumber": "9845673452",
+"mail": "kavya@gmail.com",
+}
+Response:
+same as body
+
+
+https://api421.herokuapp.com/admin/faculty/update(PUT req)
+(api to edit details of faculty if necessary on long press on that particular row)
+Body:
+{
+"personid": 114,
+"specialityname": "lowerteeth",
+"facultyid": "vdc3",
+"facultyfirstname": "kavya",
+"facultylastname": "odugu",
+"password": "welcome124",
+"phonenumber": "9845673452",
+"mail": "kavya@gmail.com",
+}
+
+response:
+same as body
+
+
+
+
+https://api421.herokuapp.com/admin/faculty/delete/{personid}(DELETE req)
+Api to delete the faculty
+Repsonse:
+personid
+
+
+
+https://api421.herokuapp.com/admin/faculty/addcsvfile(POST req)
+(api to add bulk number of faculty at a time to database using csv file.)
+Response:
+returns all students in json format 
