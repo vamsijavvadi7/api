@@ -1,0 +1,69 @@
+Get All Students(GET req)
+https://api421.herokuapp.com/admin/student/getall/{batchname}
+(api to display all students in database in a table)
+
+
+Response :
+[
+{
+"first_name": "Hampi",
+"last_name": "Shilpa",
+"password": "welcome123",
+"phone": "9848955123",
+"email": "hampi@gmail.com",
+"student_id": "18pa1a0501"
+},
+{
+"first_name": "Vamsi",
+"last_name": "Cheruku",
+"password": "welcome123",
+"phone": "9848931414",
+"email": "vamsicheruku@gmail.com",
+"student_id": "18pa1a0502"
+}]
+
+
+
+
+https://api421.herokuapp.com/admin/student/add/batch/{batchname}
+(POST REQ)
+(api to add single student to existing batch.)
+Body:
+{"studentid": "18pa1a0501",
+"firstname": "Hampi",
+"lastname": "Shilpa",
+"password": "welcome123",
+"phonenum": "9848955123",
+"email": "hampi@gmail.com"
+}
+
+
+
+https://api421.herokuapp.com/admin/student/update(PUT req)
+(api to edit details of students if necessary on long press on that particular row)
+Body:
+{"personid":34
+"studentid": "18pa1a0501",
+"studentfirstname": "Hampi",
+"studentfirstname": "Shilpa",
+"password": "welcome123",
+"phonenumber": "9848955123",
+"mail": "hampi@gmail.com"
+}
+response:
+same as body
+
+
+
+
+https://api421.herokuapp.com/admin/student/delete/{personid}(DELETE req)
+Api to delete the student
+Repsonse:
+personid
+
+
+
+https://api421.herokuapp.com/admin/student/addcsvfile/{batchname}(POST req)
+(api to add bulk number of students at a time to database using csv file.)
+Response:
+retunrs all students in json format 
