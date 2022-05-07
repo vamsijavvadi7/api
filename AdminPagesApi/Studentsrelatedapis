@@ -67,3 +67,32 @@ https://api421.herokuapp.com/admin/student/addcsvfile/{batchname}(POST req)
 (api to add bulk number of students at a time to database using csv file.)
 Response:
 retunrs all students in json format 
+
+
+
+
+
+
+
+https://api421.herokuapp.com/admin/student/getbacthnames(GET req)
+(api to display all batches)
+[
+{
+"batch_name": "2018",
+"batch_id": 18
+},
+{
+"batch_name": "2019",
+"batch_id": 19
+},
+{
+"batch_name": "2020",
+"batch_id": 20
+},
+{
+"batch_name": "2021",
+"batch_id": 21
+}
+]
+
+
