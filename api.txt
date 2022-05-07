@@ -587,3 +587,29 @@ Response:
 "criteriaqs": "how"
 }
 ]
+
+
+
+
+
+
+
+https://api421.herokuapp.com/admin/speciality/competency/add/{specialityname}(Post Req)
+Request Body:
+{
+    "competencyname":"competency5",
+    "criteriadetails":[
+{
+"criteriaqs": "process1",
+"option0": "not accurate",
+"option1": "partially correct",
+"option2": "perfect"
+},
+{
+"criteriaqs": "process2",
+"option0": "not accurate",
+"option1": "partially correct",
+"option2": "perfect"
+}
+     ]
+}
