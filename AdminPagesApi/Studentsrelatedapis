@@ -6,6 +6,7 @@ https://api421.herokuapp.com/admin/student/getall/{batchname}
 Response :
 [
 {
+"personid": 34,
 "first_name": "Hampi",
 "last_name": "Shilpa",
 "password": "welcome123",
@@ -14,6 +15,7 @@ Response :
 "student_id": "18pa1a0501"
 },
 {
+"personid": 44,
 "first_name": "Vamsi",
 "last_name": "Cheruku",
 "password": "welcome123",
@@ -72,7 +74,14 @@ retunrs all students in json format
 
 
 
+https://api421.herokuapp.com/admin/student/addbatch/{batchname}(POST req)
+(create a batchname)
+Response:
+added
 
+https://api421.herokuapp.com/admin/student/update/{batchid}/{newbatchname}(PUT req)
+Response:
+added
 
 https://api421.herokuapp.com/admin/student/getbacthnames(GET req)
 (api to display all batches)
