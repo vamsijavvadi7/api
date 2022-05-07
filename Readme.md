@@ -1,4 +1,4 @@
-# README file has some visualizations that adminsapis folder dont have thats the only diff between readme and adminapisfolder
+# README file has some visualizations that adminpagesapis folder dont have thats the only diff between readme and adminpagesapisfolder
 
 
 
