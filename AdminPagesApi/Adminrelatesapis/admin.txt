@@ -26,6 +26,8 @@ Response :
 }
 
 
+
+
 https://api421.herokuapp.com/admin/insert
 (POST REQ)
 (api to insert new admin to database)
@@ -38,6 +40,9 @@ Body:
 "phonenumber": "9838955489",
 "mail": "babu@gmail.com"
 }
+
+
+
 
 https://api421.herokuapp.com/admin/update(PUT req)
 Body:
@@ -52,12 +57,17 @@ Body:
 response:
 same as body
 
+
+
+
 https://api421.herokuapp.com/delete/{personid}(DELETE req)
 Api to delete the admin
 Repsonse:
 personid
 
-https://api421.herokuapp.com/admin/addcsvfile
+
+
+https://api421.herokuapp.com/admin/addcsvfile(POST req)
 (api to add bulk number of admins at a time to database using csv file.)
 Response:
 retunrs all admins in json format 
