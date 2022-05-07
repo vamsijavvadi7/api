@@ -1,3 +1,8 @@
+# README file has some visualizations that adminsapis folder dont have thats the only diff between readme and adminapisfolder
+
+
+
+
 https://api421.herokuapp.com/competencyevaluations/{competencyevaluationid}
 
 ### (this api is to delete competency evaluation form which is created by faculty in competency table row)
