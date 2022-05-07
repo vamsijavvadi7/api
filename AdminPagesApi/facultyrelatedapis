@@ -1,5 +1,5 @@
 Get All Faculty(GET req)
-https://api421.herokuapp.com/admin/faculty/getall/{email}
+https://api421.herokuapp.com/admin/faculty/getall
 (api to display all faculty in database in a table)
 
 
