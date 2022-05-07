@@ -1,0 +1,73 @@
+Get All Admins with logged in admin details(GET req)
+https://api421.herokuapp.com/admin/getall/{email}
+Response :
+
+{
+"adminname": "babu gogineni",
+"adminmail": "babu@gmail.com",
+"adminsdetails": [
+{
+"person_id": 274,
+"first_name": "babu",
+"last_name": "gogineni",
+"password": "welcome123",
+"Phone": "9838955489",
+"Email": "babu@gmail.com"
+},
+{
+"person_id": 334,
+"first_name": "Vamsi",
+"last_name": "Javvadi",
+"password": "welcome123",
+"Phone": "948955444",
+"Email": "admin@gmai.com"
+}
+]
+}
+
+
+
+
+https://api421.herokuapp.com/admin/insert
+(POST REQ)
+(api to insert new admin to database)
+Body:
+{
+
+"adminfirstname": "babu",
+"adminlastname": "gogineni",
+"password": "welcome123",
+"phonenumber": "9838955489",
+"mail": "babu@gmail.com"
+}
+
+
+
+
+https://api421.herokuapp.com/admin/update(PUT req)
+Body:
+{
+"personid":274
+"adminfirstname": "babu",
+"adminlastname": "gogineni",
+"password": "welcome123",
+"phonenumber": "9838955489",
+"mail": "babu@gmail.com"
+}
+response:
+same as body
+
+
+
+
+https://api421.herokuapp.com/delete/{personid}(DELETE req)
+Api to delete the admin
+Repsonse:
+personid
+
+
+
+https://api421.herokuapp.com/admin/addcsvfile(POST req)
+(api to add bulk number of admins at a time to database using csv file.)
+Response:
+retunrs all admins in json format 
