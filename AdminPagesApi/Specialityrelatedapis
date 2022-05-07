@@ -1,0 +1,58 @@
+https://api421.herokuapp.com/studentdashboard/specialities(GET req)
+(api to get all specialities names)
+Response:
+{
+"details": [
+{
+"specialityName": "surgeon",
+"SpecialityId ": 14
+},
+{
+"specialityName": "upperteeth",
+"SpecialityId ": 24
+}
+]
+}
+
+
+
+
+https://api421.herokuapp.com/admin/speciality/add/{specialityname}(POST req)
+(api to create a speciality)
+Response:
+added
+
+
+https://api421.herokuapp.com/admin/speciality/update/{specialityname}/{specialityid}(POST req)
+(api to update speciality)
+Response:
+added
+
+
+
+https://api421.herokuapp.com/fdashboard/competencydetails/{speciality}(GET req)
+(api to get all competencies names)
+
+Response:
+{
+"details": [
+{
+"competencyname": "competency1",
+"competencyid": 4
+},
+{
+"competencyname": "competency2",
+"competencyid": 14
+},
+{
+"competencyname": "competency3",
+"competencyid": 24
+},
+{
+"competencyname": "competency4",
+"competencyid": 34
+}
+]
+}
+
+
