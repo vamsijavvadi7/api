@@ -1,3 +1,24 @@
+Profile update api
+https://api421.herokuapp.com/profile/update/email/{email}
+
+body:
+{
+"regno":"18pa1a0511"
+	"firstname":"krishna"
+	"lastname":"brudwan"
+	"phonenum":"9848955444"
+		"role":"student"
+ }
+ Response:
+ same as body
+ 
+Competency evaluation delete api:
+https://api421.herokuapp.com/competencyevaluations/{competencyevaluationid}
+   Response:
+   deleted
+    
+    
+    
 For testing apis:
 Student mails
 hampi@gmail.com
@@ -593,23 +614,3 @@ Response:
 
 
 
-
-https://api421.herokuapp.com/admin/speciality/competency/add/{specialityname}(Post Req)
-Request Body:
-{
-    "competencyname":"competency5",
-    "criteriadetails":[
-{
-"criteriaqs": "process1",
-"option0": "not accurate",
-"option1": "partially correct",
-"option2": "perfect"
-},
-{
-"criteriaqs": "process2",
-"option0": "not accurate",
-"option1": "partially correct",
-"option2": "perfect"
-}
-     ]
-}
