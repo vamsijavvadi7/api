@@ -80,27 +80,7 @@ Same as body
 https://api421.herokuapp.com/admin/speciality/competency/getcompetency/{competencyid}(GET req)
 (api to get all competencys)
 Request Body:
-{
-"competencyname": "competency2",
-"competencyid": 14,
-"criteriadetails": [
-{
-"criteiaid": 44,
-"criteriaqs": "criteriaqs1",
-"option0": "Inappropriate/Not explained",
-"option1": "Partially explained",
-"option2": "Appropriate"
-},
-{
-"criteiaid": 54,
-"criteriaqs": "criteriaqs2",
-"option0": "Inappropriate/Not explained",
-"option1": "Partially explained",
-"option2": "Appropriate"
-}
-]
-}
-
+{"competencyname":"competency2","competencyid":14,"criteriadetails":[{"criteriaid":44,"criteriaqs":"criteriaqs1","option0":"Not accurate","option1":"Partially explained","option2":"Appropriate"},{"criteriaid":54,"criteriaqs":"criteriaqs2","option0":"Inappropriate/Not explained","option1":"Partially explained","option2":"Appropriate"},{"criteriaid":64,"criteriaqs":"criteriaqs3","option0":"Inappropriate/Not explained","option1":"Partially explained","option2":"Appropriate"},{"criteriaid":74,"criteriaqs":"criteriaqs4","option0":"Inappropriate/Not explained","option1":"Partially explained","option2":"Appropriate"}]}
 
 
 https://api421.herokuapp.com/admin/speciality/competency/update(PUT req)
