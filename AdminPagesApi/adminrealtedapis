@@ -60,7 +60,7 @@ same as body
 
 
 
-https://api421.herokuapp.com/delete/{personid}(DELETE req)
+https://api421.herokuapp.com/admin/delete/{personid}(DELETE req)
 Api to delete the admin
 Repsonse:
 personid
