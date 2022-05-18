@@ -1,5 +1,5 @@
 added datetime
-https://api421.herokuapp.com/studenttodo/reference/{email}
+https://api421.herokuapp.com/studenttodo/reference/{email} (GET req)
 same api
 [
 {
@@ -24,3 +24,12 @@ same api
 "datetime": "24-04-2022 01:24:02",
 "specialityname": "surgeon"
 }]
+
+
+
+In admin page Manage speciality Delete competency Api
+
+https://api421.herokuapp.com/admin/speciality/competency/delete/{competencyid}(DELETE req)
+No Body
+
+
