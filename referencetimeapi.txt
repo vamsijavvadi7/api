@@ -1,0 +1,24 @@
+added datetime
+https://api421.herokuapp.com/studenttodo/reference/{email}
+same api
+[
+{
+"facultyname": "jyothiadabala",
+"competencyname": "competency1",
+"reference": "hshhw",
+"competencyevaluation_id": 1584,
+"evaluationtype": "faculty",
+"criteriaid": 24,
+"criteriaqs": "criteriaqs3",
+"datetime": "24-04-2022 01:24:02"
+},
+{
+"facultyname": "jyothiadabala",
+"competencyname": "competency1",
+"reference": "hsjs",
+"competencyevaluation_id": 1584,
+"evaluationtype": "faculty",
+"criteriaid": 34,
+"criteriaqs": "criteriaqs4",
+"datetime": "24-04-2022 01:24:02"
+}]
