@@ -10,7 +10,8 @@ same api
 "evaluationtype": "faculty",
 "criteriaid": 24,
 "criteriaqs": "criteriaqs3",
-"datetime": "24-04-2022 01:24:02"
+"datetime": "24-04-2022 01:24:02",
+"specialityname": "surgeon"
 },
 {
 "facultyname": "jyothiadabala",
@@ -20,5 +21,6 @@ same api
 "evaluationtype": "faculty",
 "criteriaid": 34,
 "criteriaqs": "criteriaqs4",
-"datetime": "24-04-2022 01:24:02"
+"datetime": "24-04-2022 01:24:02",
+"specialityname": "surgeon"
 }]
