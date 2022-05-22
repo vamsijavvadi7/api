@@ -33,3 +33,12 @@ https://api421.herokuapp.com/admin/speciality/competency/delete/{competencyid}(D
 No Body
 
 
+In Login Page Update Password APi
+
+https://api421.herokuapp.com/login/email/{email}/updatepassword
+
+Body:
+{
+"password":"newpassword"
+}
+
