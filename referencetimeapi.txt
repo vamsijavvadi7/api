@@ -1,4 +1,43 @@
-added datetime
+Profile update api
+https://api421.herokuapp.com/profile/update/email/{email}
+
+body:
+{
+"regno":"18pa1a0511"
+	"firstname":"krishna"
+	"lastname":"brudwan"
+	"phonenum":"9848955444"
+		"role":"student"
+ }
+Or
+{
+"regno":"VDC196"
+	"firstname":"krishna"
+	"lastname":"brudwan"
+	"phonenum":"9848955444"
+       "role":"faculty"
+ }
+
+ Response:
+ same as body
+ 
+Competency evaluation delete api:
+https://api421.herokuapp.com/competencyevaluations/{competencyevaluationid}
+   Response:
+   deleted
+    
+    
+    
+For testing apis:
+Student mails
+hampi@gmail.com
+vamis@gmail.com
+Faculty mails
+jyothiadabala321@gmail.com
+dalpat999.dc@gmail.com
+pasword for all the above mails:welcome123
+
+added datetime, specialityname for student todo references api in student
 https://api421.herokuapp.com/studenttodo/reference/{email} (GET req)
 same api
 [
